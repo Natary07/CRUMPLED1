@@ -19,7 +19,8 @@ function setup() {
 
 	//Create the Bodies Here.
 	dusbin1= new Dusbin(600,600,200,20);
-
+	dusbin2=new Dusbin(500,535,20,150);
+	dusbin3=new Dusbin (700, 535,20,150);
 	paper1=new Paper(300,350);
 
 	Engine.run(engine);
@@ -33,6 +34,8 @@ function draw() {
   background(0);
   
   dusbin1.display();
+  dusbin2.display();
+  dusbin3.display();
   paper1.display();
   drawSprites();
  
